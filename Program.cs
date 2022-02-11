@@ -10,7 +10,7 @@ using JPega.TPL__Task_Parallel_Library_;
 #endregion
 #region TPL (Task Parallel Library)
 
-var tpl = new CustomTPL();
-tpl.CreateTwoTask();
+//var tpl = new CustomTPL();
+//tpl.ReturnTaskResult();
 
 #endregion
