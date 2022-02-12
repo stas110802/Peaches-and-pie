@@ -88,7 +88,7 @@ namespace JPega.TPL__Task_Parallel_Library_
 
             #region Class example
 
-            var personTaks = new Task<Person>(() => new Person("stanislav", 19));
+            var personTaks = new Task<Person>(() => new Person("Stanislav", 19));
             personTaks.Start();
             var personResult = personTaks.Result;
             Console.WriteLine($"name: {personResult.Name} age: {personResult.Age}");
